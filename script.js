@@ -1,6 +1,12 @@
 function isSameType(value1, value2) {
-  if(typeof value1 === typeof value2){
+
+  let v1 = (value1 * 0) === 0 ? Number(value1) : value1;
+  let v2 = (value2 * 0) === 0 ? Number(value2) : value2;
+	
+  if((typeof v1) === (typeof v2)){
 	  return true;
+  }else{
+	  return false;
   }
 }
 
