@@ -7,7 +7,7 @@ function isSameType(value1, value2) {
 		return false;
 	}
 
-	reuturn typeof v1 === typeof v2;
+	return typeof v1 === typeof v2;
 }
 
 // do not change the code below.
